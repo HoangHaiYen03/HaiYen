@@ -4,7 +4,7 @@ from sklearn.datasets import load_iris
 
 iris = load_iris()
 
-model = pickle.load(open("iris_model.pkl", "rb"))
+model = pickle.load(open("Iris_model.pkl", "rb"))
 
 #sidebar for user input
 st.sidebar.title('Iris Classidier')
